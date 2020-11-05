@@ -15,6 +15,7 @@ function cc(card) {
             count--;
             break;
     }
+ //Switch statement for the card function that counts the cards based on which case is called
 
     var holdbet = 'Hold'
     if (count > 0) {
@@ -25,8 +26,9 @@ function cc(card) {
 
 
 }
+//Bet if card count is greater or hold bet if not & return count 
 
 
 cc(2); cc('J'); cc(10); cc('K'); cc('A');
 console.log(cc(4)); 
-//Blackjack card counting game
+//Output results on declared cards
